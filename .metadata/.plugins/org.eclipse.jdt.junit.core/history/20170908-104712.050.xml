@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="shopping-app" project="shopping-app" tests="6" started="6" failures="0" errors="0" ignored="3">
+  <testsuite name="com.vg.shoppingapp.rule.ShoppingCartTest" time="0.085">
+    <testcase name="testCase3" classname="com.vg.shoppingapp.rule.ShoppingCartTest" time="0.082"/>
+    <testcase name="testCase1" classname="com.vg.shoppingapp.rule.ShoppingCartTest" time="0.0"/>
+    <testcase name="testCase2" classname="com.vg.shoppingapp.rule.ShoppingCartTest" time="0.002"/>
+  </testsuite>
+  <testcase name="com.vg.shoppingapp.service.DiscountProcessorTest" classname="com.vg.shoppingapp.service.DiscountProcessorTest" time="0.0" ignored="true"/>
+  <testcase name="com.vg.shoppingapp.service.CheckOutImplTest" classname="com.vg.shoppingapp.service.CheckOutImplTest" time="0.0" ignored="true"/>
+  <testcase name="com.vg.shoppingapp.rule.TestRules" classname="com.vg.shoppingapp.rule.TestRules" time="0.0" ignored="true"/>
+</testrun>

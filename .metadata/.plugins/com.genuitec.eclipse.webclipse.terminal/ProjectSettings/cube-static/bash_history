@@ -1,0 +1,7 @@
+npm start
+ng
+ng --help
+npm install bootstrap@next
+npm install bootstrap@next
+ng g component login 
+ng g component dashboard 

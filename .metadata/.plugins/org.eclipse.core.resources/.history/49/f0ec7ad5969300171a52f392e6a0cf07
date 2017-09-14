@@ -1,0 +1,16 @@
+import { XxxPage } from './app.po';
+
+describe('xxx App', () => {
+  let page: XxxPage;
+
+  beforeEach(() => {
+    page = new XxxPage();
+  });
+
+  it('should display welcome message', done => {
+    page.navigateTo();
+    page.getParagraphText()
+      .then(msg => expect(msg).toEqual('Welcome to app!!'))
+      .then(done, done.fail);
+  });
+});
