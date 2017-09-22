@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CheckOutImplTest" project="shopping-app" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.vg.shoppingapp.service.CheckOutImplTest" time="0.063">
-    <testcase name="testNoItem" classname="com.vg.shoppingapp.service.CheckOutImplTest" time="0.061"/>
-    <testcase name="testTotal" classname="com.vg.shoppingapp.service.CheckOutImplTest" time="0.002"/>
-  </testsuite>
-</testrun>

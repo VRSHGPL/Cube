@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRules (1)" project="shopping-app" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="com.vg.shoppingapp.rule.TestRules" time="0.053">
-    <testcase name="testTwoRules" classname="com.vg.shoppingapp.rule.TestRules" time="0.051"/>
-    <testcase name="testBulkRules" classname="com.vg.shoppingapp.rule.TestRules" time="0.0"/>
-    <testcase name="testReducedRules" classname="com.vg.shoppingapp.rule.TestRules" time="0.001"/>
-    <testcase name="testFreeRule" classname="com.vg.shoppingapp.rule.TestRules" time="0.001"/>
-  </testsuite>
-</testrun>

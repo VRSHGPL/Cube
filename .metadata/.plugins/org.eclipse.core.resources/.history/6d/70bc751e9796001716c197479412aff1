@@ -1,4 +1,0 @@
-/**
- * New typescript file
- */
-export * from './login/login.component';

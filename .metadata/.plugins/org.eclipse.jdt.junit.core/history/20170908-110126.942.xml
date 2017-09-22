@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CheckOutImplTest.testNoItem" project="shopping-app" tests="1" started="1" failures="0" errors="0" ignored="1">
-  <testcase name="testNoItem" classname="com.vg.shoppingapp.service.CheckOutImplTest" incomplete="true"/>
-  <testsuite name="Unrooted Tests" time="0.0">
-    <testcase name="@Ignore: com.vg.shoppingapp.service.CheckOutImplTest" classname="@Ignore: com.vg.shoppingapp.service.CheckOutImplTest" time="0.0" ignored="true"/>
-  </testsuite>
-</testrun>
