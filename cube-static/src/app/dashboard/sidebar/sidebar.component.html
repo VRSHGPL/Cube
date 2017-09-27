@@ -1,0 +1,25 @@
+<button class="btn btn-default" id="toggle-sidebar" type="button">&#9776;</button>
+<nav class="sidebar">
+	<ul class="list-group">
+		<a routerLink="/dashboard/home" class="list-group-item"> <i
+			class="fa fa-fw fa-home"></i> Home
+		</a>
+		<a routerLink="/dashboard/upload" class="list-group-item"> <i
+			class="fa fa-cloud-upload"></i> Upload File
+		</a>
+		<a [routerLink]="['chart']"
+			[routerLinkActive]="['router-link-active']" class="list-group-item">
+			<i class="fa fa-download"></i> Download File
+		</a>
+		<a [routerLink]="['forms']"
+			[routerLinkActive]="['router-link-active']" class="list-group-item">
+			<i class="fa fa-times"></i> Deleted Files
+		</a>
+		<a [routerLink]="['tables']"
+			[routerLinkActive]="['router-link-active']" class="list-group-item">
+			<i class="fa fa-history"></i> History
+		</a>
+
+
+	</ul>
+</nav>
