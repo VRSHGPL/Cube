@@ -2,22 +2,35 @@
 	<div class="row">
 		<div class="col-lg-4 col-lg-offset-4">
 			<img src="assets/img/log.png" width="190px" />
-		
-			<form role="form">
+
+			<form role="form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
 				<div class="form-content">
-					<div class="form-group">
-						<input type="text" class="form-control input-underline input-lg"
-							id="" placeholder="Email"  >
+					<div class="form-group"
+						[ngClass]="{'has-error' : f.submitted && !userName.valid}">
+						<input type="text" class="form-control input-underline input-lg" id="userName"
+							name="userName" placeholder="User Name" [(ngModel)]="user.userName"
+							#userName="ngModel" required>
+						<div *ngIf="f.submitted && !userName.valid" class="help-block">Username
+							is required</div>
 					</div>
 
-					<div class="form-group">
-						<input type="password"
-							class="form-control input-underline input-lg" id=""
-							placeholder="Password">
+					<div class="form-group"
+						[ngClass]="{'has-error' : f.submitted && !password.valid}">
+						<input type="text" class="form-control input-underline input-lg" id="password"
+							name="password" placeholder="Password" [(ngModel)]="user.password"
+							#password="ngModel" required>
+						<div *ngIf="f.submitted && !password.valid" class="help-block">Password
+							is required</div>
 					</div>
 				</div>
-				<a class="btn rounded-btn"  routerLink="/dashboard/home"> Log in </a> &nbsp; 
-				<a type="submit" class="btn rounded-btn"> Register</a>
+
+				<!-- No Authentication -->
+				<!-- <a class="btn rounded-btn" routerLink="/dashboard/home"> Log in
+				</a> &nbsp; <a type="submit" class="btn rounded-btn"> Register</a> -->
+
+				<button class="btn rounded-btn">Log in</button>
+				&nbsp;
+				<!-- <a type="submit" class="btn rounded-btn"> Register</a> -->
 			</form>
 		</div>
 	</div>
