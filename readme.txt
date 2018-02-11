@@ -1,0 +1,1 @@
+To run Cube-static, use npm start so that the proxy configuration gets picked up

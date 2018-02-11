@@ -1,3 +1,26 @@
-<p>
-  upload works!
-</p>
+<ol class="breadcrumb">
+	<li class="breadcrumb-item active">Upload</li>
+</ol>
+
+
+<div class="container">
+	<p>Upload your files to cloud here!</p>
+	<form #uploadForm="ngForm">
+
+		<div class="form-group">
+			<label for="name">Upload</label> <input (change)="trackFiles($event)" type="file"
+				name="file" id="file" multiple />
+		</div>
+
+		<div *ngIf="filesToUpload.length > 0">
+			<h5>Uploaded Files are :</h5>
+			<ul>
+				<li *ngFor="let file of filesToUpload">{{file.name}}</li>
+			</ul>
+		</div>
+
+		<button type="submit" class="btn btn-success" (click)="uploadToServer(); uploadForm.reset();">Submit</button>
+
+
+	</form>
+</div>

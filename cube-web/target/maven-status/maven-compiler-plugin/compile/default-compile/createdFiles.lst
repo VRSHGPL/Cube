@@ -1,0 +1,7 @@
+com/vg/cube/model/User.class
+com/vg/cube/service/impl/S3ServiceImpl.class
+com/vg/cube/controller/FileOperationsController.class
+com/vg/cube/CubeWebApplication.class
+com/vg/cube/service/FilesCrudService.class
+com/vg/cube/controller/AuthenticationController.class
+com/vg/cube/config/AwsConfiguration.class
