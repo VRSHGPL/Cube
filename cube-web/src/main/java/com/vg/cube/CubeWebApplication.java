@@ -32,7 +32,7 @@ public class CubeWebApplication {
 		return "App's Up";
 	}
 
-	/*@Bean
+	@Bean
 	EmbeddedServletContainerCustomizer containerCustomizer() throws Exception {
 		return (ConfigurableEmbeddedServletContainer container) -> {
 			if (container instanceof TomcatEmbeddedServletContainerFactory) {
@@ -44,7 +44,7 @@ public class CubeWebApplication {
 			}
 		};
 	}
-*/
+
 }
 /*
  * @RefreshScope
